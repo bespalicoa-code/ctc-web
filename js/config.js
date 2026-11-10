@@ -7,13 +7,14 @@
      (datele se salvează doar în browserul tău, nu se sincronizează).
   Detalii complete: vezi README.md
 */
-window.FIREBASE_CONFIG = {
-  apiKey: "PUNE_AICI_apiKey",
-  authDomain: "PUNE_AICI.firebaseapp.com",
-  projectId: "PUNE_AICI",
-  storageBucket: "PUNE_AICI.appspot.com",
-  messagingSenderId: "PUNE_AICI",
-  appId: "PUNE_AICI"
+const firebaseConfig = {
+  apiKey: "AIzaSyBAR1mgO-45tzE7v2IzKPGlVP2G097mnRQ",
+  authDomain: "ctc-calarasi.firebaseapp.com",
+  projectId: "ctc-calarasi",
+  storageBucket: "ctc-calarasi.firebasestorage.app",
+  messagingSenderId: "609375745182",
+  appId: "1:609375745182:web:11fe443c95b903845d378f",
+  measurementId: "G-DHJ7BM6019"
 };
 
 /* Adresa de e-mail a Administratorului principal (singura care poate face "Prima configurare").
